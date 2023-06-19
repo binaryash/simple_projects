@@ -1,7 +1,5 @@
 # Simple-Projects
 
-![Simple-Projects Banner](https://example.com/banner.png) *(Replace with an actual banner image if desired)*
-
 Welcome to the Simple-Projects GitHub repository! This repository serves as a collection of beginner-friendly projects designed to help you learn and practice programming in a fun and interactive way. Whether you are new to coding or looking for simple projects to enhance your skills, Simple-Projects has something for everyone.
 
 ## Table of Contents
