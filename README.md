@@ -63,7 +63,7 @@ Simple-Projects welcomes contributions from the community! If you have a simple 
 ## Contact
 
 For more information about me and my work please visit
-[ash-the-coder](ash-the-coder.github.io) 
+ash-the-coder.github.io
 
 We encourage active participation and collaboration within the community to foster a supportive and inclusive learning environment.
 
