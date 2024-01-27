@@ -1,0 +1,5 @@
+001,Laptop,1200.0
+002,Mouse,20.0
+003,Keyboard,50.0
+004,Headphones,80.0
+005,Monitor,4500.0
