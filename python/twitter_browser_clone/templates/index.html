@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buzz Time</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #231d78;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #FFFFFF;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .buzz-form {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .buzz-form .form-control {
+      width: 300px;
+    }
+
+    .buzz-card {
+      background-color: #384fe8;
+      color: #FFFFFF;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Buzz Time</h1>
+    <form method="POST" class="buzz-form">
+      <input type="text" name="buzz" placeholder="What's happening?" class="form-control">
+      <button type="submit" class="btn btn-primary">Buzz</button>
+    </form>
+    {% for buzz in buzzes %}
+    <div class="buzz-card">
+      <p>{{ buzz }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

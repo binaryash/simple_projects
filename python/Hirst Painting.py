@@ -1,0 +1,25 @@
+import turtle
+import random
+t = turtle.Turtle()
+turtle.colormode(255)
+t.speed('fastest')
+t.hideturtle()
+t.penup()
+t.setheading(225)
+t.forward(250)
+t.setheading(0)
+for j in range (6):
+    for i in range(5):
+        r = random.randint(0,250)
+        g = random.randint(0,250)
+        b = random.randint(0,250)
+        color = (r,g,b)
+        t.dot(20,color)
+        t.forward (50)
+    t.setheading (90)
+    t.forward (50)
+    t.setheading(180)
+    t.forward(250)
+    t.setheading(0)
+c = turtle.getscreen()
+c.exitonclick()
