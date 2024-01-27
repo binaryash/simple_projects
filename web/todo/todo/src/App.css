@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-list {
+  max-width: 400px;
+  margin: auto;
+}
